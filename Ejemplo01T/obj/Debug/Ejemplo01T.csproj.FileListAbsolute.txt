@@ -1,0 +1,5 @@
+C:\dev\poc\Ejemplos\Ejemplo01T\bin\Debug\Ejemplo01T.exe.config
+C:\dev\poc\Ejemplos\Ejemplo01T\bin\Debug\Ejemplo01T.exe
+C:\dev\poc\Ejemplos\Ejemplo01T\bin\Debug\Ejemplo01T.pdb
+C:\dev\poc\Ejemplos\Ejemplo01T\obj\Debug\Ejemplo01T.exe
+C:\dev\poc\Ejemplos\Ejemplo01T\obj\Debug\Ejemplo01T.pdb

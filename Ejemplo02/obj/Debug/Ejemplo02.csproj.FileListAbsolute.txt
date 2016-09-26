@@ -1,0 +1,6 @@
+C:\dev\poc\Ejemplos\Ejemplo02\bin\Debug\Ejemplo02.exe.config
+C:\dev\poc\Ejemplos\Ejemplo02\bin\Debug\Ejemplo02.exe
+C:\dev\poc\Ejemplos\Ejemplo02\bin\Debug\Ejemplo02.pdb
+C:\dev\poc\Ejemplos\Ejemplo02\obj\Debug\Ejemplo02.csprojResolveAssemblyReference.cache
+C:\dev\poc\Ejemplos\Ejemplo02\obj\Debug\Ejemplo02.exe
+C:\dev\poc\Ejemplos\Ejemplo02\obj\Debug\Ejemplo02.pdb
