@@ -1,0 +1,3 @@
+Armar una clase alumno con una propiedad que sea la lista de las materias cursadas con la nota
+crear un metodo de extension sobre la clase alumno que calcule el promedio
+

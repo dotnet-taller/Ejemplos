@@ -1,0 +1,18 @@
+Ejercicio 1
+Armar una interfaz con los metodos
+CalcularArea y CalcularPerimetro que no reciban parametros y devuelvan un double
+Armar 3 clases (circulo, triangulo, cuadrado) que implemente la interfaz y la funcionalidad de la misma
+
+Ejercicio 2
+Armar una clase que contenga las siguientes propiedades
+Lista de ruedas
+Motor
+caja de cambios
+
+para las ruedas deben ser implementar una interfaz con los metodos iniciar y frenar, tambien deben tener una propiedad diametro
+para el motor crear una interfaz con los metodos iniciar y frenar, tambien deben tener una propiedad cilindrada
+para la caja de cambios crear una interfaz con las propiedades tipo y cantidad de cambios, donde el tipo solo puede tener los valores automatica y manual
+
+crear 3 clases diferentes para cada componente
+y armar un programa donde creen 4 autos con diferentes componentes cada uno
+validar en el auto pueda tener solo 5 ruedas
