@@ -1,0 +1,4 @@
+Armar un formulario en el cual tengamos que cargar los datos del alumno (nombre, apellido, legajo), dentro del mismo formulario incluir los campos para cargar las materias cursadas (nombre, fecha, nota) guardando todas las materias cursadas en un listbox en el cual se debe visulizar el nombre de la materia, el año en que se curso y la nota.
+
+Como un plus el que pueda incluya un combobox para seleccionar la materia en lugar de escribir el nombre
+

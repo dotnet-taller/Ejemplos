@@ -1,3 +1,24 @@
-Armar una clase alumno con una propiedad que sea la lista de las materias cursadas con la nota
-crear un metodo de extension sobre la clase alumno que calcule el promedio
+Armar una clase para representar cada materia que cursaron con las propiedades, entre las cuales Notas debe ser una lista de las notas que obtuvieron con sus fechas y tipos
+Materia:
+Nombre
+Año
+Cuatrimestre
+Notas
+
+---------------
+Nota
+Tipo
+Fecha
+Valor
+
+
+en un programa de consola cargar una lista completando las materias que cursaron con sus respectivos datos
+
+armar una consulta para obtener todas las materias que cursaron en el primer cuatrimestre
+
+armar una consulta donde el resultado este ordenado alfabeticamente por nombre
+
+armar una consulta donde se devuelva una lista de todas las notas del tipo TP
+
+armar un metodo de extension que calcule el promedio de las notas para una materia
 
