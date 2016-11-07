@@ -1,0 +1,32 @@
+            lista3.Select(i=>new { i.Cliente, i.Numero });
+            lista3
+                .GroupBy(i => i.Cliente.Provincia)
+                .Select(i => new { Provincia= i.Key, total= i.Sum(f=>f.Total) });
+
+            lista3
+                .GroupBy(i =>new { i.Cliente.Provincia, i.Fecha.Month })
+                .Select(i => new {
+                    Provincia = i.Key.Provincia,
+                    Mes =i.Key.Month,
+                    total = i.Sum(f => f.Total) });
+
+            var rdo3 = lista3
+                .GroupBy(i => new { i.Cliente.Provincia, i.Fecha.Month })
+                .Select(i => new {
+                    i.Key,
+                    total = i.Sum(f => f.Total)
+                });
+
+
+            var lista4 = new List<materia>();
+            var resultado4 = lista4.GroupBy(m => m.Cuatrimestre).Select(i => new
+            {
+                Cuatrimestre = i.Key,
+                Promedio = i.SelectMany(m=>m.Notas).Where(n=>n.tipo!="tp").Average(n=>n.Valor)
+            });
+
+            foreach (var item in resultado4)
+            {
+                Console.WriteLine($"{item.Cuatrimestre} {item.Promedio}");
+            }
+
