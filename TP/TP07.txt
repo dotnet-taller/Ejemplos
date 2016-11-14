@@ -1,0 +1,23 @@
+Armar un proyecto web que contenga 2 controladores, Articulos y Facturas.
+el controlador de articulos tiene que tener una vista con un listado de articulos y una para la edicion
+el controlador de facturas solo debe tener la vista para cargar facturas
+
+las clase deben tener las siguientes propiedades
+
+Articulos
+int id
+string codigo
+string descripcion
+double precio
+
+Facturas 
+int id
+datetime fecha
+double total
+
+FacturaDetalles
+int id
+int facturaid
+int articuloid
+int cantidad
+double precio
